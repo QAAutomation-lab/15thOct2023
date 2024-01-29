@@ -1,0 +1,620 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-29T03:44:21.944Z",
+        "line": 4,
+        "name": "Trying to search Selenium Interview Questions in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-selenium-interview-questions-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6318771900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has already on google search page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2177155600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user types \u0027Selenium Interview Questions\u0027 in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Selenium Interview Questions\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32912100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should able to get result page with title having \u0027Selenium Interview Questions\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Selenium Interview Questions\u0027",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 434399600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Myflow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-29T03:44:30.990Z",
+        "line": 16,
+        "name": "Trying to search Selenium Interview Questions in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-\u003ctexttobesearched\u003e-in-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3832079300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User has already on google search page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468747600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user types Selenium Interview Questions in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium Interview Questions",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1861762100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should able to get result page with title having Selenium Interview Questions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium Interview Questions",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329915000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Myflow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-29T03:44:37.520Z",
+        "line": 17,
+        "name": "Trying to search Manual Testing Questions in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-\u003ctexttobesearched\u003e-in-google;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3590255200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User has already on google search page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 478440200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user types Manual Testing Questions in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Testing Questions",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1799853300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should able to get result page with title having Manual Testing Questions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Testing Questions",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 362546000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Myflow"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-29T03:44:43.793Z",
+        "line": 18,
+        "name": "Trying to search API testing question in Google",
+        "description": "",
+        "id": "trying-to-search-something-in-google;trying-to-search-\u003ctexttobesearched\u003e-in-google;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3667129500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User has already on google search page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDef.user_has_already_on_google_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 482223300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user types API testing question in search input field and press enter key",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API testing question",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_types_in_search_input_field_and_press_enter_key(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2012515800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should able to get result page with title having API testing question",
+            "match": {
+              "arguments": [
+                {
+                  "val": "API testing question",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDef.user_should_able_to_get_result_page_with_title_having(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 391952300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Myflow"
+          }
+        ]
+      }
+    ],
+    "name": "Trying to Search something in Google",
+    "description": "",
+    "id": "trying-to-search-something-in-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleSearch.feature",
+    "tags": [
+      {
+        "name": "@Myflow",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5770562300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.user_already_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6775757700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login successfully with valid data",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.user_login_successfully_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125214800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on navigation bar",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.click_on_navigation_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1713116500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "go to Marketing and select Leads",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.go_to_marketing_and_select_leads()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-29T03:44:50.387Z",
+        "line": 18,
+        "name": "Create new lead with name as QA",
+        "description": "",
+        "id": "create-lead-in-vtiger-application;create-new-lead-with-name-as-\u003cfirstname\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4953026400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on Add Leads button and enter firstname as QA ,last as Champak ,number as 123 and click on save button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA",
+                  "offset": 49
+                },
+                {
+                  "val": "Champak",
+                  "offset": 61
+                },
+                {
+                  "val": "123",
+                  "offset": 80
+                }
+              ],
+              "location": "stepdefinitions.VtigerLeadStepDef.enter_firstname_as_last_as_number_as_and_click_on_save_button(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1144353700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on All link",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.click_on_all_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223403200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "varify lead is created with Champak",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Champak",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefinitions.VtigerLeadStepDef.varify_lead_is_created_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 752123900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Myflow"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3900607500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user already in login page",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.user_already_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2672273600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login successfully with valid data",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.user_login_successfully_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157580800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on navigation bar",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.click_on_navigation_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2047738100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "go to Marketing and select Leads",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.go_to_marketing_and_select_leads()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-01-29T03:45:11.868Z",
+        "line": 21,
+        "name": "Delete all leads",
+        "description": "",
+        "id": "create-lead-in-vtiger-application;delete-all-leads",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 273219100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on select all leads checkbox",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.click_on_select_all_leads_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 364200700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on delete logo",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.click_on_delete_logo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 708366900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user will get a popup to comfirm deletion, select Yes",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.user_will_get_a_popup_to_comfirm_deletion_select_yes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4101652900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "varify that all leads deleted",
+            "match": {
+              "location": "stepdefinitions.VtigerLeadStepDef.varify_that_all_leads_deleted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 399946500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "close the browser",
+            "match": {
+              "location": "stepdefinitions.ActitimeStepDef.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Myflow"
+          }
+        ]
+      }
+    ],
+    "name": "Create lead in Vtiger application",
+    "description": "",
+    "id": "create-lead-in-vtiger-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VtigerLead.feature",
+    "tags": [
+      {
+        "name": "@Myflow",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
